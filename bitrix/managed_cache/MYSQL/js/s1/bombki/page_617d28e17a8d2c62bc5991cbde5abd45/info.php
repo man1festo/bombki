@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/local/templates/bombki/components/bitrix/catalog.smart.filter/.default/script.js" => "150213443214556","/local/templates/bombki/components/bitrix/catalog.section/.default/script.js" => "15021344315424",), 'CUR_SEL_CNT' => '0', 'CUR_IE_CNT' => '0'); ?>

@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/local/templates/bombki/components/bitrix/catalog/.default/style.css" => "15021344301122","/bitrix/css/main/bootstrap.css" => "1502134370121793","/local/templates/bombki/components/bitrix/catalog/.default/bitrix/catalog.section.list/.default/style.css" => "15021344306536",), 'CUR_SEL_CNT' => '2559', 'CUR_IE_CNT' => '0'); ?>
