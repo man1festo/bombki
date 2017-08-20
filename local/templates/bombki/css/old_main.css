@@ -1,0 +1,388 @@
+*, a, a:hover {
+    color: #323232;
+}
+.btn.btn-action, h1, h2, h3 {
+    text-transform: uppercase;
+}
+.advantages, .advantages .advantages__item, .hero, header.header .header__sign {
+    display: flex;
+    align-content: center;
+}
+.categories, .categories a.category__item, .hero {
+    text-align: center;
+}
+.transition {
+    transition: .1s all ease;
+}
+@font-face {
+    src: url('../fonts/Proxima Nova Regular.otf');
+    font-family: 'Proxima Nova Regular'}
+@font-face {
+    src: url('../fonts/Proxima Nova Light.otf');
+    font-family: 'Proxima Nova Light'}
+@font-face {
+    src: url('../fonts/Proxima Nova Bold.otf');
+    font-family: 'Proxima Nova Bold'}
+@font-face {
+    src: url('../fonts/Proxima Nova Regular Italic.otf');
+    font-family: 'Proxima Nova Regular Italic'}
+.proxima-nova-regular {
+    font-family: 'Proxima Nova Regular', 'Open Sans'}
+.proxima-nova-light {
+    font-family: 'Proxima Nova Light', 'Open Sans'}
+.proxima-nova-bold {
+    font-family: 'Proxima Nova Bold', 'Open Sans'}
+.proxima-nova-italic {
+    font-family: 'Proxima Nova Regular Italic', 'Open Sans'}
+* {
+    font-family: 'Proxima Nova Regular', 'Open Sans'}
+.advantages .advantages__item div, footer.footer .footer__menu h6, h1, h2, h3 {
+    font-family: 'Proxima Nova Bold', 'Open Sans'}
+.btn {
+    border-radius: 0;
+    transition: .1s all ease;
+}
+.btn.btn-action {
+    padding: 10px 25px;
+    background: #F9253F;
+    font-weight: 600;
+}
+.btn.btn-action:hover {
+    color: #F9253F;
+    background: #fff;
+}
+.btn.btn-success {
+    background: #323232;
+    color: #fff;
+    border-color: #323232;
+}
+.btn.btn-success:hover {
+    color: #323232;
+    background: #fff;
+}
+.btn.btn-show-more {
+    background: #323232;
+    color: #fff;
+    border-color: #323232;
+    font-size: 1.4rem;
+    padding: 15px 100px;
+}
+.btn.btn-show-more:hover {
+    color: #323232;
+    background: #fff;
+}
+ul.list-group {
+    border: none;
+}
+ul.list-group .list-group-item {
+    border: none;
+    padding-left: 0;
+}
+ul.list-group .list-group-item img {
+    margin-right: 35px;
+    width: 27px;
+    height: 27px;
+}
+.text-success {
+    color: #05B863;
+}
+header.header .header-container {
+    margin-bottom: 10px;
+}
+header.header .header__logo {
+    padding: 25px 15px 15px;
+}
+header.header .header__sign {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+header.header .header__sign .cart, header.header .header__sign .login {
+    padding-right: 15px;
+}
+header.header .header__sign .cart img, header.header .header__sign .login img {
+    margin-right: 5px;
+}
+footer.footer {
+    margin-top: 6rem;
+    background: #f9f9f9;
+}
+footer.footer .footer__contacts .socials {
+    display: flex;
+    min-height: 34px;
+}
+footer.footer .footer__contacts .socials i {
+    font-size: 2rem;
+    margin-left: 7px;
+    vertical-align: center;
+}
+footer.footer .footer__contacts form {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+footer.footer .footer__contacts form button, footer.footer .footer__contacts form div, footer.footer .footer__contacts form input {
+    margin-left: 15px;
+}
+footer.footer .footer__contacts form input {
+    padding: 5px;
+    border: none;
+}
+footer.footer .footer__contacts form input:active, footer.footer .footer__contacts form input:focus, footer.footer .footer__contacts form input:hover {
+    border-bottom: 1px solid #989898;
+    box-shadow: none;
+    outline: 0;
+}
+footer.footer .footer__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+footer.footer .footer__menu h6 {
+    font-size: 1.6rem;
+    color: #323232;
+}
+footer.footer .footer__menu ul {
+    margin-left: none;
+    padding-left: 0;
+}
+footer.footer .footer__menu ul li {
+    list-style-type: none;
+}
+footer.footer .footer__menu ul li a {
+    color: #323232;
+    line-height: 3.5rem;
+}
+footer.footer .footer__copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -15px;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+footer.footer .footer__copyright a {
+    color: #323232;
+}
+@-webkit-keyframes flash {
+    0% {
+    opacity: .4;
+}
+100% {
+    opacity: 1;
+}
+}@keyframes flash {
+    0% {
+    opacity: .4;
+}
+100% {
+    opacity: 1;
+}
+}.categories {
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+.categories .row {
+    margin-bottom: 3rem;
+}
+.categories a.category__item div, .categories a.category__item h3, .categories a.category__item h4, .categories a.category__item p {
+    color: #323232;
+}
+.categories a.category__item .categories__categorie__type {
+    margin-top: 2rem;
+}
+.categories a.category__item .categories__divider {
+    margin: 1.5rem auto;
+    width: 120px;
+    height: 2px;
+    background: #989898;
+}
+.categories a.category__item:active, .categories a.category__item:focus, .categories a.category__item:hover, .categories a.category__item:visited {
+    text-decoration: none;
+}
+.categories a.category__item:hover img {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+@media screen and (max-width:470px) {
+    .categories img {
+    width: 90%;
+    margin: 0 auto;
+}
+}nav.navbar-default.navbar {
+    background: #323232;
+    border-radius: 0;
+    border: none;
+}
+nav.navbar-default.navbar ul.navigation-menu {
+    margin-left: 10%}
+@media screen and (max-width:1024px) {
+    nav.navbar-default.navbar ul.navigation-menu {
+    margin-left: 0;
+}
+}nav.navbar-default.navbar ul li a {
+    color: #fff!important;
+    transition: .1s all ease;
+}
+nav.navbar-default.navbar ul li.active a, nav.navbar-default.navbar ul li:focus a, nav.navbar-default.navbar ul li:hover a {
+    background: #D51C29!important;
+    color: #fff!important;
+}
+nav.navbar-default.navbar ul li:focus a, nav.navbar-default.navbar ul li:hover a {
+    color: #fff;
+}
+nav.navbar-default.navbar ul li.shop-mega-menu i {
+    margin-right: 5px;
+    color: #fff;
+}
+nav.navbar-default.navbar ul li.shop-mega-menu:focus a, nav.navbar-default.navbar ul li.shop-mega-menu:hover a {
+    background: #191919!important;
+}
+nav.navbar-default.navbar ul li.shop-mega-menu:focus ul li a, nav.navbar-default.navbar ul li.shop-mega-menu:hover ul li a {
+    background: initial;
+}
+nav.navbar-default.navbar ul li.mega-dropdown {
+    width: 100%;
+    background: #323232;
+}
+nav.navbar-default.navbar ul li.mega-dropdown ul.dropdown-menu {
+    padding: 0;
+    width: 300%;
+    border-radius: 0;
+    background: #323232;
+    border: none;
+    transition: .1s all ease;
+}
+nav.navbar-default.navbar ul li.mega-dropdown ul.dropdown-menu li a {
+    color: #FBFBFB;
+}
+nav.navbar-default.navbar ul li.mega-dropdown ul.dropdown-menu .mega-menu__ware-cats, nav.navbar-default.navbar ul li.mega-dropdown ul.dropdown-menu li.mega-menu__news {
+    padding-left: 3.5rem;
+    padding-top: 2rem;
+}
+nav.navbar-default.navbar ul li.mega-dropdown ul.dropdown-menu .mega-menu__ware-cats a, nav.navbar-default.navbar ul li.mega-dropdown ul.dropdown-menu li.mega-menu__news a {
+    color: #FBFBFB!important;
+}
+nav.navbar-default.navbar ul li.mega-dropdown ul.dropdown-menu h6 {
+    color: #9C9C9C;
+    text-transform: uppercase;
+}
+nav.navbar-default.navbar ul li.mega-dropdown ul.dropdown-menu .mega-menu__ware-cats, nav.navbar-default.navbar ul li.mega-dropdown ul.dropdown-menu .mega-menu__ware-cats ul.list-group li.list-group-item {
+    background: #191919;
+}
+nav.navbar-default.navbar ul li.mega-dropdown ul.dropdown-menu .mega-menu__ware-cats ul.list-group li.list-group-item img {
+    width: 27px;
+    height: 27px;
+}
+nav.navbar-default.navbar ul li.mega-dropdown ul.dropdown-menu .mega-menu__ware-cats ul.list-group li.list-group-item a {
+    background: #191919!important;
+}
+nav.navbar-default.navbar ul li.mega-dropdown ul.dropdown-menu li.mega-menu__news {
+    background: #323232!important;
+}
+nav.navbar-default.navbar ul li.mega-dropdown ul.dropdown-menu li.mega-menu__news ul {
+    list-style: none;
+    padding-left: 0;
+}
+nav.navbar-default.navbar ul li.mega-dropdown ul.dropdown-menu li.mega-menu__news ul li {
+    margin: 20px 0;
+}
+nav.navbar-default.navbar ul li.mega-dropdown ul.dropdown-menu li.mega-menu__news ul li a {
+    background: #323232!important;
+    font-size: 12px;
+}
+.advantages {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.advantages .advantages__item {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 35px;
+    border-right: 1px solid #989898;
+    position: relative;
+    top: 6px;
+}
+.advantages .advantages__item:last-child {
+    border-right: none;
+}
+.advantages .advantages__item div {
+    width: 60%;
+    margin: 0 2%;
+    text-align: center;
+}
+.hero {
+    min-height: 550px;
+    background: url(../img/birthday-gifts.png) no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:780px) {
+    .hero {
+    min-height: 350px;
+}
+}.hero a, .hero h1, .hero p {
+    color: #fff;
+}
+.hero h1 {
+    font-size: 4rem;
+    font-family: 'Proxima Nova Regular', 'Open Sans'}
+.hero p {
+    font-style: italic;
+    font-family: 'Proxima Nova Regular Italic', 'Open Sans';
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+.shop .shop__header .shop__items-header, .shop__catalog__items .shop__catalog__item .price .price__in, .shop__catalog__items .shop__catalog__item h4 {
+    font-family: 'Proxima Nova Bold', 'Open Sans'}
+.hero a {
+    margin-top: 3rem;
+}
+.shop .shop__header {
+    margin-bottom: 2rem;
+}
+.shop .shop__header .shop__items-sort {
+    text-align: right;
+}
+.shop .shop__header .shop__items-sort select {
+    border: 1px solid #989898;
+    padding: 3px 7px;
+    margin-left: 7px;
+    margin-right: -15px;
+    color: #989898;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.shop__catalog__items .shop__catalog__item {
+    transition: .1s all ease;
+    border: 1px solid #fff;
+    margin-bottom: 3.5rem;
+}
+.shop__catalog__items .shop__catalog__item:hover {
+    border-color: #EAE8E9;
+}
+.shop__catalog__items .shop__catalog__item h4 {
+    font-size: 1.4rem;
+}
+.shop__catalog__items .shop__catalog__item p {
+    font-size: 1.2rem;
+    color: #9C9C9C;
+}
+.shop__catalog__items .shop__catalog__item .price {
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}
+#showMore {
+    margin-top: 8rem;
+}
+.show-more-container {
+    margin-top: 20rem;
+}
